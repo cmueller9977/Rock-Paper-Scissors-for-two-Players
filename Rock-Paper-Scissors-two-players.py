@@ -4,8 +4,8 @@ print('Rock, Paper, Scissors')
 
 # Variables for Playernames and how many rounds to be played
 
-Name_Player_1 = Player1
-Name_Player_2 = Player2
+Name_Player_1 = 0
+Name_Player_2 = 0
 
 
 # Variables to keep track of the number of losses, wins and ties for the different Players
