@@ -15,3 +15,5 @@ To get more practice I came up with the idea to expand it for two players.
 Maybe I will go on with that little game later and fork it with different ideas like a Highscore, graphics, etc..
 
 We will see :)
+
+But it's not only about learning to code in Python. It's also about to use Github and the start to create a Portfolio-Website.  
