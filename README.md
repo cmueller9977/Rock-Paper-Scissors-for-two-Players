@@ -1,5 +1,7 @@
 # Rock Paper Scissors for two Players
- Practicing Python fundamentals
+
+
+Practicing Python fundamentals 
 
 At the moment I am on my way to learn Python using the book "Automate the boring stuff"
 
@@ -10,4 +12,6 @@ To practice the different topics I always try to find ideas to put them into a k
 In the book the author is also using a Rock Paper Scissors game to demonstrate the Flowcontrol.
 To get more practice I came up with the idea to expand it for two players.
 
-Maybe I will go on with that little game later and fork it with different ideas.
+Maybe I will go on with that little game later and fork it with different ideas like a Highscore, graphics, etc..
+
+We will see :)
