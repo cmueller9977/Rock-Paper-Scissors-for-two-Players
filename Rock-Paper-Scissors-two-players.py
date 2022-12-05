@@ -34,28 +34,27 @@ tiesP2 = 0
 
 
 #  Choosing how many rounds to be played - sets the number of iterations of the main game loop
-#  Only 3, 5 or 7 will be accepted - has to be added!
+#  NEEDS CHANGE! Only 3, 5 or 7 have to be accepted - has to be added with a loop!
 
 Number_of_rounds = 0
 print('First, you have to decide how many rounds you both want to play: 3, 5 or 7 rounds?')
 Number_of_rounds = input()
 
 
-#  Main game for loop with range set by player
-
-i = 1
+#  Main game for loop with range / rounds set by player
 
 for i in range(Number_of_rounds):
 
     #  Display the actual results
 
     print('Actual results of ' + Name_Player_1 + ':')
-    print('Wins: ' + winsP1 + )
-    print('Losses: ' + lossesP1 + )
-    print('Ties: ' + tiesP1 + )
+    print('Wins: ' + winsP1 + ' ')
+    print('Losses: ' + lossesP1 + ' ')
+    print('Ties: ' + tiesP1 + ' ')
 
     print('Actual results of ' + Name_Player_2 + ':')
-    print('Wins: ' + winsP2 + )
-    print('Losses: ' + lossesP2 + )
-    print('Ties: ' + tiesP2 + )
+    print('Wins: ' + winsP2 + ' ')
+    print('Losses: ' + lossesP2 + ' ')
+    print('Ties: ' + tiesP2 + ' ')
 
+    # Game begins
