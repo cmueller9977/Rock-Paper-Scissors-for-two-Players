@@ -37,15 +37,22 @@ tiesP2 = 0
 #  NEEDS CHANGE! Only 3, 5 or 7 have to be accepted - has to be added with a loop!
 
 Number_of_rounds = 0
-print('First, you have to decide how many rounds you both want to play: 3, 5 or 7 rounds?')
-Number_of_rounds = input()
+
+
+while True:
+    print('First, you have to decide how many rounds you both want to play: 3, 5 or 7 rounds?')
+    Number_of_rounds = input()
+    if (Number_of_rounds == 3) or (Number_of_rounds == 5) or (Number_of_rounds == 7):
+        continue
+    print('so lets play')
+    break
 
 
 #  Main game for loop with range / rounds set by player
 
 for i in range(Number_of_rounds):
 
-    #  Display the actual results
+    #  Display the actual results at every start of a new round
 
     print('Actual results of ' + Name_Player_1 + ':')
     print('Wins: ' + winsP1 + ' ')
